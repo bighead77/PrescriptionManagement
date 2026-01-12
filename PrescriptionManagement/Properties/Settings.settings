@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PrescriptionManagement.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="apiUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://192.168.34.246:6425</Value>
+    </Setting>
+    <Setting Name="apiUrl6425" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://192.168.34.246:6425</Value>
+    </Setting>
+    <Setting Name="drugpic" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\drugpic\</Value>
+    </Setting>
+    <Setting Name="drugpicUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://192.168.34.246/apiipd/master/drugs/image/</Value>
+    </Setting>
+    <Setting Name="comname" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GD4-ICHO-01</Value>
+    </Setting>
+    <Setting Name="IO" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
