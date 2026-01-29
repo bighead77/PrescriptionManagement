@@ -1038,7 +1038,7 @@ namespace PrescriptionManagement.cls
              {
                  {"username",user}
              };
-                var jsonString = System.Text.Json.JsonSerializer.Serialize(values, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
+                var jsonString = Newtonsoft.Json.JsonConvert.SerializeObject(values, Newtonsoft.Json.Formatting.Indented); //System.Text.Json.JsonSerializer.Serialize(values, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
                 //var content = new FormUrlEncodedContent(jsonString);
                 var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
 
@@ -1097,7 +1097,7 @@ namespace PrescriptionManagement.cls
                     apiUrl = string.Format(apiUrl);
                     // สร้างข้อมูล JSON ที่ต้องการส่ง
                     string jsonContent = "";
-                    var jsonString = System.Text.Json.JsonSerializer.Serialize(ListJson, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
+                    var jsonString = Newtonsoft.Json.JsonConvert.SerializeObject(ListJson, Newtonsoft.Json.Formatting.Indented);// System.Text.Json.JsonSerializer.Serialize(ListJson, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
                     Console.WriteLine(jsonString);
                     if (jsonString.Length > 0)
                     {
@@ -3861,10 +3861,10 @@ namespace PrescriptionManagement.cls
                     string jsonString = "";
                     if (ListJson.Count > 0)
                     {
-                        jsonString = System.Text.Json.JsonSerializer.Serialize(
-                            ListJson[0],  // ✅ serialize object เดี่ยว
-                            new System.Text.Json.JsonSerializerOptions { WriteIndented = true }
-                        );
+                        jsonString = Newtonsoft.Json.JsonConvert.SerializeObject(ListJson[0], Newtonsoft.Json.Formatting.Indented); // System.Text.Json.JsonSerializer.Serialize(
+                            //ListJson[0],  // ✅ serialize object เดี่ยว
+                           // new System.Text.Json.JsonSerializerOptions { WriteIndented = true }
+                        //);
                     }
 
                     if (!string.IsNullOrWhiteSpace(jsonString))
@@ -4014,10 +4014,10 @@ namespace PrescriptionManagement.cls
                     string apiUrl = PrescriptionManagement.Properties.Settings.Default.apiUrl + "/order/updaterxipd";
                     apiUrl = string.Format(apiUrl);
                     
-                    var jsonString = System.Text.Json.JsonSerializer.Serialize(
-                        ListJson,
-                        new System.Text.Json.JsonSerializerOptions { WriteIndented = true }
-                    );
+                    var jsonString = Newtonsoft.Json.JsonConvert.SerializeObject(ListJson, Newtonsoft.Json.Formatting.Indented);// System.Text.Json.JsonSerializer.Serialize(
+                        //ListJson,
+                        //new System.Text.Json.JsonSerializerOptions { WriteIndented = true }
+                    //);
 
                     Console.WriteLine(jsonString);
 

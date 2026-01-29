@@ -46,6 +46,7 @@ namespace PrescriptionManagement.view
         private void uc_CheckoutPrescription_Load(object sender, EventArgs e)
         {
             txt_BarcodePrescr.Focus();
+          
         }
         private void EnableDoubleBuffer(DataGridView dgv)
         {
@@ -301,8 +302,8 @@ namespace PrescriptionManagement.view
                                         dg_waitMatching.Rows.Add(i["_id"].ToString(), 
                                             i["orderitemcode"].ToString(), 
                                             i["orderitemname"].ToString(), 
-                                            i["orderqty"].ToString(), 
-                                            "", 
+                                            i["orderqty"].ToString(),
+                                            i["orderunitdesc"].ToString(), 
                                             instustion, bitmap, 
                                             "ยกเลิก", 
                                             "MedError", 
@@ -422,7 +423,7 @@ namespace PrescriptionManagement.view
                                                     {
                                                         dg_FinishMatching.Rows.Add(false, orderitembarcode, i["matchingdatetime"].ToString(), i["orderitemcode"].ToString(),
                                                          i["orderitemname"].ToString(),
-                                                         i["orderqty"].ToString(),
+                                                         i["dosage"].ToString(),
                                                          i["dosageunitcode"].ToString(),
                                                          i["shelfzone"].ToString() + " " + i["shelfname"].ToString(),
                                                          jobusername, i["voiddatetime"].ToString());
@@ -435,7 +436,7 @@ namespace PrescriptionManagement.view
                                                 {
                                                     dg_FinishMatching.Rows.Add(false, orderitembarcode, i["matchingdatetime"].ToString(), i["orderitemcode"].ToString(),
                                                    i["orderitemname"].ToString(),
-                                                   i["orderqty"].ToString(),
+                                                   i["dosage"].ToString(),
                                                    i["dosageunitcode"].ToString(),
                                                    i["shelfzone"].ToString() + " " + i["shelfname"].ToString(),
                                                    jobusername, i["voiddatetime"].ToString());
@@ -664,7 +665,7 @@ namespace PrescriptionManagement.view
                                             i["orderitemcode"].ToString(),
                                             i["orderitemname"].ToString(),
                                             i["orderqty"].ToString(),
-                                            "",
+                                            i["orderunitdesc"].ToString(),
                                             instustion, bitmap,
                                             "ยกเลิก",
                                             "MedError",
@@ -762,7 +763,7 @@ namespace PrescriptionManagement.view
                                             {
                                                 dg_FinishMatching.Rows.Add(false, orderitembarcode, i["matchingdatetime"].ToString(), i["orderitemcode"].ToString(),
                                                i["orderitemname"].ToString(),
-                                               i["orderqty"].ToString(),
+                                               i["dosage"].ToString(),
                                                i["dosageunitcode"].ToString(),
                                                i["shelfzone"].ToString() + " " + i["shelfname"].ToString(),
                                                jobusername, i["voiddatetime"].ToString());

@@ -167,7 +167,7 @@
             this.splitContainer1.Panel2.Controls.Add(this.panel5);
             this.splitContainer1.Panel2.Controls.Add(this.panel6);
             this.splitContainer1.Size = new System.Drawing.Size(1819, 835);
-            this.splitContainer1.SplitterDistance = 959;
+            this.splitContainer1.SplitterDistance = 958;
             this.splitContainer1.TabIndex = 3;
             this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
             // 
@@ -177,7 +177,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 54);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(959, 781);
+            this.panel3.Size = new System.Drawing.Size(958, 781);
             this.panel3.TabIndex = 3;
             // 
             // groupBox1
@@ -188,7 +188,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Angsana New", 20.25F);
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(959, 781);
+            this.groupBox1.Size = new System.Drawing.Size(958, 781);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "รายการยาที่แพทย์สั่ง";
@@ -255,7 +255,7 @@
             this.dg_waitMatching.RowTemplate.Height = 45;
             this.dg_waitMatching.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.dg_waitMatching.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dg_waitMatching.Size = new System.Drawing.Size(953, 738);
+            this.dg_waitMatching.Size = new System.Drawing.Size(952, 738);
             this.dg_waitMatching.TabIndex = 3;
             this.dg_waitMatching.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dg_waitMatching_CellContentClick);
             // 
@@ -274,7 +274,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(959, 54);
+            this.panel4.Size = new System.Drawing.Size(958, 54);
             this.panel4.TabIndex = 4;
             // 
             // btnVoid
@@ -283,8 +283,8 @@
             this.btnVoid.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnVoid.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnVoid.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
-            this.btnVoid.Location = new System.Drawing.Point(613, 2);
-            this.btnVoid.Margin = new System.Windows.Forms.Padding(2);
+            this.btnVoid.Location = new System.Drawing.Point(612, 2);
+            this.btnVoid.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnVoid.Name = "btnVoid";
             this.btnVoid.Size = new System.Drawing.Size(164, 49);
             this.btnVoid.TabIndex = 53;
@@ -300,8 +300,8 @@
             this.btn_frmstatus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_frmstatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
             this.btn_frmstatus.Image = ((System.Drawing.Image)(resources.GetObject("btn_frmstatus.Image")));
-            this.btn_frmstatus.Location = new System.Drawing.Point(283, 1);
-            this.btn_frmstatus.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_frmstatus.Location = new System.Drawing.Point(60, 2);
+            this.btn_frmstatus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_frmstatus.Name = "btn_frmstatus";
             this.btn_frmstatus.Size = new System.Drawing.Size(164, 49);
             this.btn_frmstatus.TabIndex = 52;
@@ -317,7 +317,7 @@
             this.btnhistory.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnhistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.btnhistory.Image = ((System.Drawing.Image)(resources.GetObject("btnhistory.Image")));
-            this.btnhistory.Location = new System.Drawing.Point(781, 0);
+            this.btnhistory.Location = new System.Drawing.Point(780, 0);
             this.btnhistory.Name = "btnhistory";
             this.btnhistory.Size = new System.Drawing.Size(176, 52);
             this.btnhistory.TabIndex = 23;
@@ -330,9 +330,8 @@
             // 
             this.pic1.BackColor = System.Drawing.Color.Transparent;
             this.pic1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pic1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pic1.Image = ((System.Drawing.Image)(resources.GetObject("pic1.Image")));
-            this.pic1.Location = new System.Drawing.Point(223, 0);
+            this.pic1.Location = new System.Drawing.Point(411, 2);
             this.pic1.Name = "pic1";
             this.pic1.Size = new System.Drawing.Size(55, 52);
             this.pic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -346,7 +345,7 @@
             this.pic2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pic2.Dock = System.Windows.Forms.DockStyle.Left;
             this.pic2.Image = ((System.Drawing.Image)(resources.GetObject("pic2.Image")));
-            this.pic2.Location = new System.Drawing.Point(168, 0);
+            this.pic2.Location = new System.Drawing.Point(0, 0);
             this.pic2.Name = "pic2";
             this.pic2.Size = new System.Drawing.Size(55, 52);
             this.pic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -357,9 +356,8 @@
             // btndrugallergies
             // 
             this.btndrugallergies.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btndrugallergies.Dock = System.Windows.Forms.DockStyle.Left;
             this.btndrugallergies.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.btndrugallergies.Location = new System.Drawing.Point(0, 0);
+            this.btndrugallergies.Location = new System.Drawing.Point(237, 0);
             this.btndrugallergies.Name = "btndrugallergies";
             this.btndrugallergies.Size = new System.Drawing.Size(168, 52);
             this.btndrugallergies.TabIndex = 20;
@@ -374,7 +372,7 @@
             this.btnStartTimer.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnStartTimer.BackColor = System.Drawing.Color.LightGreen;
             this.btnStartTimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStartTimer.Location = new System.Drawing.Point(622, -267);
+            this.btnStartTimer.Location = new System.Drawing.Point(621, -267);
             this.btnStartTimer.Name = "btnStartTimer";
             this.btnStartTimer.Size = new System.Drawing.Size(184, 48);
             this.btnStartTimer.TabIndex = 13;
@@ -386,7 +384,7 @@
             this.btnStopTimer.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnStopTimer.BackColor = System.Drawing.Color.LightCoral;
             this.btnStopTimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStopTimer.Location = new System.Drawing.Point(622, -269);
+            this.btnStopTimer.Location = new System.Drawing.Point(621, -269);
             this.btnStopTimer.Name = "btnStopTimer";
             this.btnStopTimer.Size = new System.Drawing.Size(185, 52);
             this.btnStopTimer.TabIndex = 12;
@@ -399,7 +397,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 54);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(856, 781);
+            this.panel5.Size = new System.Drawing.Size(857, 781);
             this.panel5.TabIndex = 4;
             // 
             // groupBox2
@@ -410,7 +408,7 @@
             this.groupBox2.Font = new System.Drawing.Font("Angsana New", 20.25F);
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(856, 781);
+            this.groupBox2.Size = new System.Drawing.Size(857, 781);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "รายการยาที่แยกแพคเกจ";
@@ -474,7 +472,7 @@
             this.dg_FinishMatching.RowsDefaultCellStyle = dataGridViewCellStyle14;
             this.dg_FinishMatching.RowTemplate.Height = 45;
             this.dg_FinishMatching.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dg_FinishMatching.Size = new System.Drawing.Size(850, 738);
+            this.dg_FinishMatching.Size = new System.Drawing.Size(851, 738);
             this.dg_FinishMatching.TabIndex = 4;
             this.dg_FinishMatching.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dg_FinishMatching_CellContentClick);
             this.dg_FinishMatching.Click += new System.EventHandler(this.dg_FinishMatching_Click);
@@ -492,7 +490,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(856, 54);
+            this.panel6.Size = new System.Drawing.Size(857, 54);
             this.panel6.TabIndex = 5;
             // 
             // btn_UnselectAll_print
@@ -538,7 +536,7 @@
             this.lbqty.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbqty.AutoSize = true;
             this.lbqty.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lbqty.Location = new System.Drawing.Point(374, 6);
+            this.lbqty.Location = new System.Drawing.Point(375, 6);
             this.lbqty.Name = "lbqty";
             this.lbqty.Size = new System.Drawing.Size(30, 42);
             this.lbqty.TabIndex = 23;
@@ -549,7 +547,7 @@
             // 
             this.txtbarcode.Dock = System.Windows.Forms.DockStyle.Right;
             this.txtbarcode.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.txtbarcode.Location = new System.Drawing.Point(524, 0);
+            this.txtbarcode.Location = new System.Drawing.Point(525, 0);
             this.txtbarcode.Multiline = true;
             this.txtbarcode.Name = "txtbarcode";
             this.txtbarcode.Size = new System.Drawing.Size(330, 52);
@@ -560,7 +558,7 @@
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(464, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(465, 4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(49, 47);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -611,10 +609,10 @@
             this.groupBox3.Controls.Add(this.cb_status0);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.groupBox3.Location = new System.Drawing.Point(1158, 2);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox3.Size = new System.Drawing.Size(365, 195);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Size = new System.Drawing.Size(365, 161);
             this.groupBox3.TabIndex = 44;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "สถานะ";
@@ -660,7 +658,7 @@
             // btnSave
             // 
             this.btnSave.Location = new System.Drawing.Point(220, 82);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(107, 50);
             this.btnSave.TabIndex = 2;
@@ -672,7 +670,7 @@
             // 
             this.cb_status1.AutoSize = true;
             this.cb_status1.Location = new System.Drawing.Point(14, 116);
-            this.cb_status1.Margin = new System.Windows.Forms.Padding(2);
+            this.cb_status1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cb_status1.Name = "cb_status1";
             this.cb_status1.Size = new System.Drawing.Size(164, 30);
             this.cb_status1.TabIndex = 1;
@@ -683,7 +681,7 @@
             // 
             this.cb_status0.AutoSize = true;
             this.cb_status0.Location = new System.Drawing.Point(14, 77);
-            this.cb_status0.Margin = new System.Windows.Forms.Padding(2);
+            this.cb_status0.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cb_status0.Name = "cb_status0";
             this.cb_status0.Size = new System.Drawing.Size(109, 30);
             this.cb_status0.TabIndex = 0;
@@ -710,7 +708,7 @@
             this.liststatus.Location = new System.Drawing.Point(1535, 16);
             this.liststatus.Name = "liststatus";
             this.liststatus.ScrollAlwaysVisible = true;
-            this.liststatus.Size = new System.Drawing.Size(277, 136);
+            this.liststatus.Size = new System.Drawing.Size(277, 103);
             this.liststatus.TabIndex = 43;
             // 
             // lshispharmaco
@@ -720,10 +718,10 @@
             this.lshispharmaco.FormattingEnabled = true;
             this.lshispharmaco.HorizontalScrollbar = true;
             this.lshispharmaco.ItemHeight = 33;
-            this.lshispharmaco.Location = new System.Drawing.Point(868, 198);
+            this.lshispharmaco.Location = new System.Drawing.Point(868, 165);
             this.lshispharmaco.Name = "lshispharmaco";
             this.lshispharmaco.ScrollAlwaysVisible = true;
-            this.lshispharmaco.Size = new System.Drawing.Size(948, 70);
+            this.lshispharmaco.Size = new System.Drawing.Size(948, 103);
             this.lshispharmaco.TabIndex = 40;
             // 
             // lbbasketno
@@ -854,13 +852,13 @@
             // lsdrugallergies_his
             // 
             this.lsdrugallergies_his.Font = new System.Drawing.Font("Angsana New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lsdrugallergies_his.FormattingEnabled = true;
+            this.lsdrugallergies_his.HorizontalExtent = 1500;
             this.lsdrugallergies_his.HorizontalScrollbar = true;
             this.lsdrugallergies_his.ItemHeight = 33;
-            this.lsdrugallergies_his.Location = new System.Drawing.Point(7, 198);
+            this.lsdrugallergies_his.Location = new System.Drawing.Point(7, 165);
             this.lsdrugallergies_his.Name = "lsdrugallergies_his";
             this.lsdrugallergies_his.ScrollAlwaysVisible = true;
-            this.lsdrugallergies_his.Size = new System.Drawing.Size(948, 70);
+            this.lsdrugallergies_his.Size = new System.Drawing.Size(948, 103);
             this.lsdrugallergies_his.TabIndex = 29;
             this.lsdrugallergies_his.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lsdrugallergies_his_MouseClick);
             // 
@@ -911,7 +909,7 @@
             this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Angsana New", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(861, 166);
+            this.label8.Location = new System.Drawing.Point(861, 133);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(95, 37);
             this.label8.TabIndex = 41;
@@ -922,7 +920,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Angsana New", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(3, 170);
+            this.label10.Location = new System.Drawing.Point(3, 137);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(95, 37);
             this.label10.TabIndex = 28;
@@ -943,7 +941,7 @@
             this.orderitemcode.HeaderText = "รหัสยา";
             this.orderitemcode.MinimumWidth = 6;
             this.orderitemcode.Name = "orderitemcode";
-            this.orderitemcode.Width = 110;
+            this.orderitemcode.Width = 72;
             // 
             // orderitemname
             // 
@@ -970,8 +968,7 @@
             this.orderunitcode.HeaderText = "หน่วย";
             this.orderunitcode.MinimumWidth = 6;
             this.orderunitcode.Name = "orderunitcode";
-            this.orderunitcode.Visible = false;
-            this.orderunitcode.Width = 110;
+            this.orderunitcode.Width = 70;
             // 
             // instuction
             // 
@@ -1072,7 +1069,7 @@
             this.fin_orderitemcode.HeaderText = "รหัสยา";
             this.fin_orderitemcode.MinimumWidth = 6;
             this.fin_orderitemcode.Name = "fin_orderitemcode";
-            this.fin_orderitemcode.Width = 110;
+            this.fin_orderitemcode.Width = 72;
             // 
             // fin_orderitemname
             // 
